@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý Sách</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Quản lý Sách</h1>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2>Thêm Sách Mới</h2>
+            <form id="bookForm">
+                <input type="text" id="ten_sach" placeholder="Tên sách" required>
+                <input type="text" id="loai_sach" placeholder="Loại sách" required>
+                <input type="number" id="gia_ban" placeholder="Giá bán" required>
+                <input type="text" id="nha_xuat_ban" placeholder="Nhà xuất bản" required>
+                <input type="date" id="ngay_xuat_ban" required>
+                <textarea id="tom_tat_noi_dung" placeholder="Tóm tắt nội dung" required></textarea>
+                <input type="text" id="anh" placeholder="URL ảnh bìa sách">
+                <button type="submit">Thêm Sách</button>
+            </form>
+        </div>
+        <div class="books-container">
+            <h2>Danh sách Sách</h2>
+            <div id="booksList" class="book-list">
+            </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
