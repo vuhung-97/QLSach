@@ -1,0 +1,23 @@
+# Môi trường ảo (virtual environment)
+venv/
+*.venv/
+.env/
+
+# Files và thư mục của Python
+__pycache__/
+*.pyc
+*.pyo
+*~
+.pytest_cache/
+.vscode/
+.vscode-test/
+
+# Cấu hình IDE (VS Code)
+.vscode/
+
+# Thư mục dữ liệu, logs
+logs/
+data/
+
+# Thông tin nhạy cảm
+.env
